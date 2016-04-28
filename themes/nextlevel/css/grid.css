@@ -1,0 +1,169 @@
+/* Container */
+.container {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	height: 576px;
+}
+.header {
+	width: 960px;
+	height: 192px;
+	margin: 0 auto;
+	position: relative;
+}
+/* Blocks */
+.block_1x1,
+.block_2x1,
+.block_3x1,
+.block_4x1,
+.block_5x1,
+.block_1x2,
+.block_2x2,
+.block_3x2,
+.block_4x2,
+.block_5x2,
+.block_1x3,
+.block_2x3,
+.block_3x3,
+.block_4x3,
+.block_5x3 {
+	position: absolute;
+	overflow: hidden;
+}
+.block_1x1 {
+	width: 192px;
+	height: 192px;
+}
+.block_2x1 {
+	width: 384px;
+	height: 192px;
+}
+.block_3x1 {
+	width: 576px;
+	height: 192px;
+}
+.block_4x1 {
+	width: 768px;
+	height: 192px;
+}
+.block_5x1 {
+	width: 960px;
+	height: 192px;
+}
+.block_1x2 {
+	width: 192px;
+	height: 384px;
+}
+.block_2x2 {
+	width: 384px;
+	height: 384px;
+}
+.block_3x2 {
+	width: 576px;
+	height: 384px;
+}
+.block_4x2 {
+	width: 768px;
+	height: 384px;
+}   
+.block_5x2 {
+	width: 960px;
+	height: 384px;
+}
+.block_1x3 {
+	width: 192px;
+	height: 576px;
+}
+.block_2x3 {
+	width: 384px;
+	height: 576px;
+}
+.block_3x3 {
+	width: 576px;
+	height: 576px;
+}
+.block_4x3 {
+	width: 768px;
+	height: 576px;
+}
+.block_5x3 {
+	width: 960px;
+	height: 576px;
+}
+/* Pushing */
+.push1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.push2 {
+	position: absolute;
+	left: 192px;
+	top: 0;	
+}
+.push3 {
+	position: absolute;
+	left: 384px;
+	top: 0;	
+}
+.push4 {
+	position: absolute;
+	left: 576px;
+	top: 0;	
+}
+.push5 {
+	position: absolute;
+	left: 768px;
+	top: 0;	
+}
+.push6 {
+	position: absolute;
+	left: 0;
+	top: 192px;	
+}
+.push7 {
+	position: absolute;
+	left: 192px;
+	top: 192px;	
+}
+.push8 {
+	position: absolute;
+	left: 384px;
+	top: 192px;	
+}
+.push9 {
+	position: absolute;
+	left: 576px;
+	top: 192px;	
+}
+.push10 {
+	position: absolute;
+	left: 768px;
+	top: 192px;	
+}
+.push11 {
+	position: absolute;
+	left: 0;
+	top: 384px;	
+}
+.push12 {
+	position: absolute;
+	left: 192px;
+	top: 384px;	
+}
+.push13 {
+	position: absolute;
+	left: 384px;
+	top: 384px;	
+}
+.push14 {
+	position: absolute;
+	left: 576px;
+	top: 384px;	
+}
+.push15 {
+	position: absolute;
+	left: 768px;
+	top: 384px;	
+}
+/* Mobile */
