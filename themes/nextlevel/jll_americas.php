@@ -358,7 +358,7 @@ $(document).ready(function() {
     
     
     <div class="push2">
-    	<div class="block_4x3"><img src="<?php bloginfo('template_directory'); ?>/images/map2015-v2.png"></div>
+    	<div class="block_4x3"><img src="<?php bloginfo('template_directory'); ?>/images/map2016.png"></div>
     </div>
 
 
