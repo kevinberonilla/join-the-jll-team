@@ -221,30 +221,30 @@ $(document).ready(function() {
     <div class="push1">
     	<div class="block_1x1 clickable" id="tenant">
         	<div class="block_content">
-                <h1 class="teal"><strong>715</strong></h1>
+                <h1 class="teal"><strong>737</strong></h1>
                 <h2 class="teal">Tenant Rep brokers</h2>
                 <div class="statistics">Statistics</div>
                 <div class="pointer"></div>
             </div>
 
             <div class="block_front">
-                <h1 class="teal"><strong>715</strong></h1>
+                <h1 class="teal"><strong>737</strong></h1>
                 <h2 class="teal">Tenant Rep brokers</h2>
                 <div class="statistics">Statistics</div>
                 <div class="pointer"></div>
             </div>
             
             <div class="block_back">
-                <h1><strong>715</strong></h1>
+                <h1><strong>737</strong></h1>
                 <h2>Tenant Rep brokers</h2>
                 
-                <h1><strong>8,400</strong></h1>
+                <h1><strong>9,000</strong></h1>
                 <h2># of Tenant Rep transactions</h2>
                 
-                <h1><strong>177 M</strong></h1>
+                <h1><strong>818 M</strong></h1>
                 <h2>total square feet</h2>
                 
-                <h1><strong>$614M</strong></h1>
+                <h1><strong>$1B</strong></h1>
                 <h2>total revenue</h2>
                 <div class="pointer"></div>
             </div>
@@ -256,30 +256,30 @@ $(document).ready(function() {
 	<div class="push6">
     	<div class="block_1x1 clickable" id="agency">
         	<div class="block_content">
-                <h1><strong>400+</strong></h1>
+                <h1><strong>305</strong></h1>
                 <h2>Agency Leasing brokers</h2>
                 <div class="statistics">Statistics</div>
                 <div class="pointer"></div>
             </div>
 
             <div class="block_front">
-                <h1><strong>400+</strong></h1>
+                <h1><strong>305</strong></h1>
                 <h2>Agency Leasing brokers</h2>
                 <div class="statistics">Statistics</div>
                 <div class="pointer"></div>
             </div>
             
             <div class="block_back">
-                <h1><strong>400+</strong></h1>
+                <h1><strong>305</strong></h1>
                 <h2>Agency Leasing brokers</h2>
                 
-                <h1><strong>4,740</strong></h1>
+                <h1><strong>5,200</strong></h1>
                 <h2># of AL transactions</h2>
                 
-                <h1><strong>380 M</strong></h1>
+                <h1><strong>415 M</strong></h1>
                 <h2>total square feet</h2>
                 
-                <h1><strong>$146M</strong></h1>
+                <h1><strong>$201M</strong></h1>
                 <h2>total revenue</h2>
                 <div class="pointer"></div>
             </div>
@@ -291,30 +291,30 @@ $(document).ready(function() {
 	<div class="push11">
     	<div class="block_1x1 clickable" id="industrial">
         	<div class="block_content">
-                <h1><strong>240</strong></h1>
+                <h1><strong>261</strong></h1>
                 <h2>Industrial brokers</h2>
                 <div class="statistics">Statistics</div>
                 <div class="pointer"></div>
             </div>
 
             <div class="block_front">
-                <h1><strong>240</strong></h1>
+                <h1><strong>261</strong></h1>
                 <h2>Industrial brokers</h2>
                 <div class="statistics">Statistics</div>
                 <div class="pointer"></div>
             </div>
             
             <div class="block_back">
-                <h1><strong>240</strong></h1>
+                <h1><strong>261</strong></h1>
                 <h2>Industrial brokers</h2>
                 
-                <h1><strong>2,890</strong></h1>
+                <h1><strong>3,040</strong></h1>
                 <h2># of Industrial transactions</h2>
                 
-                <h1><strong>196 M</strong></h1>
+                <h1><strong>202 M</strong></h1>
                 <h2>total square feet</h2>
                 
-                <h1><strong>$128M</strong></h1>
+                <h1><strong>$157M</strong></h1>
                 <h2>total revenue</h2>
                 <div class="pointer"></div>
             </div>
