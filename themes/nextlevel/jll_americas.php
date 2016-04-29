@@ -42,7 +42,7 @@ $(document).ready(function() {
 						
 			var blockHTML = $(this).find(".block_front").html();
 
-			$("#tenant").animate({
+			$("#tenant").stop().animate({
 				height: '192px'
 			}, 500);
 			
@@ -59,7 +59,7 @@ $(document).ready(function() {
 
 			$("#tenant .block_content").html(blockHTML);
 			$("#tenant .block_content").css("background", "#a1131a");
-			$("#tenant").css("z-index", "1").animate({
+			$("#tenant").css("z-index", "1").stop().animate({
 				height: '576px',
 			});
 			$(this).addClass("clicked");
@@ -76,11 +76,11 @@ $(document).ready(function() {
 
 			var blockHTML = $(this).find(".block_front").html();
 			
-			$(".push6").animate({
+			$(".push6").stop().animate({
 				top: 192,
 				left: 0
 			}, 500);
-			$("#agency").animate({
+			$("#agency").stop().animate({
 				height: '192px'
 			}, 500);
 			
@@ -97,11 +97,11 @@ $(document).ready(function() {
 
 			$("#agency .block_content").html(blockHTML);
 			$("#agency .block_content").css("background", "#a1131a");
-			$(".push6").animate({
+			$(".push6").stop().animate({
 				top: 0,
 				left: 0
 			});
-			$("#agency").css("z-index", "1").animate({
+			$("#agency").css("z-index", "1").stop().animate({
 				height: '576px',
 			});
 			$(this).addClass("clicked");
@@ -118,11 +118,11 @@ $(document).ready(function() {
 			
 			var blockHTML = $(this).find(".block_front").html();
 			
-			$(".push11").animate({
+			$(".push11").stop().animate({
 				top: 384,
 				left: 0
 			}, 500);
-			$("#industrial").animate({
+			$("#industrial").stop().animate({
 				height: '192px'
 			}, 500);
 			
@@ -139,11 +139,11 @@ $(document).ready(function() {
 
 			$("#industrial .block_content").html(blockHTML);
 			$("#industrial .block_content").css("background", "#a1131a");
-			$(".push11").animate({
+			$(".push11").stop().animate({
 				top: 0,
 				left: 0
 			});
-			$("#industrial").css("z-index", "1").animate({
+			$("#industrial").css("z-index", "1").stop().animate({
 				height: '576px',
 			});
 			$(this).addClass("clicked");
@@ -160,11 +160,11 @@ $(document).ready(function() {
 			
 			var blockHTML = $(this).find(".block_front").html();
 			
-			$(".push12").animate({
+			$(".push12").stop().animate({
 				top: 384,
 				left: 192
 			}, 500);
-			$("#retail").animate({
+			$("#retail").stop().animate({
 				height: '192px'
 			}, 500);
 			
@@ -181,11 +181,11 @@ $(document).ready(function() {
 
 			$("#retail .block_content").html(blockHTML);
 			$("#retail .block_content").css("background", "#a1131a");
-			$(".push12").animate({
+			$(".push12").stop().animate({
 				top: 0,
 				left: 192
 			});
-			$("#retail").css("z-index", "1").animate({
+			$("#retail").css("z-index", "1").stop().animate({
 				height: '576px',
 			});
 			$(this).addClass("clicked");

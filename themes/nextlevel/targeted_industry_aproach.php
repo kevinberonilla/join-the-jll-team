@@ -43,11 +43,11 @@ $(document).ready(function() {
 			
 			var blockHTML = $(this).find(".block_front").html();
 			
-			$(".push1.click1").animate({
+			$(".push1.click1").stop().animate({
 				top: 0,
 				left: 0
 			}, 100);
-			$("#click1").animate({
+			$("#click1").stop().animate({
 				height: '192px',
 				width: '384px'
 			}, 100);
@@ -71,11 +71,11 @@ $(document).ready(function() {
 
 				$("#click1 .block_content_nm").html(blockHTML);
 				$("#click1 .block_content_nm").css("background", "#a1131a");
-				$(".push1.click1").animate({
+				$(".push1.click1").stop().animate({
 					top: 0,
 					left: 0
 				});
-				$("#click1").css("z-index", "2").animate({
+				$("#click1").css("z-index", "2").stop().animate({
 					height: '192px',
 					width: '384px'
 				});
@@ -100,11 +100,11 @@ $(document).ready(function() {
 			
 			var blockHTML = $(this).find(".block_front").html();
 			
-			$(".push3.click3").animate({
+			$(".push3.click3").stop().animate({
 				top: 0,
 				left: 384
 			}, 100);
-			$("#click3").animate({
+			$("#click3").stop().animate({
 				height: '384px',
 				width: '192px'
 			}, 100);
@@ -128,11 +128,11 @@ $(document).ready(function() {
 
 				$("#click3 .block_content_nm").html(blockHTML);
 				$("#click3 .block_content_nm").css("background", "#a1131a");
-				$(".push3.click3").animate({
+				$(".push3.click3").stop().animate({
 					top: 0,
 					left: 384
 				});
-				$("#click3").css("z-index", "2").animate({
+				$("#click3").css("z-index", "2").stop().animate({
 					height: '384px',
 					width: '192px'
 				});
@@ -157,11 +157,11 @@ $(document).ready(function() {
 			
 			var blockHTML = $(this).find(".block_front").html();
 			
-			$(".push4.click4").animate({
+			$(".push4.click4").stop().animate({
 				top: 0,
 				left: 576
 			}, 100);
-			$("#click4").animate({
+			$("#click4").stop().animate({
 				height: '192px',
 				width: '384px'
 			}, 100);
@@ -185,11 +185,11 @@ $(document).ready(function() {
 
 				$("#click4 .block_content_nm").html(blockHTML);
 				$("#click4 .block_content_nm").css("background", "#a1131a");
-				$(".push4.click4").animate({
+				$(".push4.click4").stop().animate({
 					top: 0,
 					left: 576
 				});
-				$("#click4").css("z-index", "2").animate({
+				$("#click4").css("z-index", "2").stop().animate({
 					height: '192px',
 					width: '384px'
 				});
@@ -214,11 +214,11 @@ $(document).ready(function() {
 			
 			var blockHTML = $(this).find(".block_front").html();
 			
-			$(".push6.click6").animate({
+			$(".push6.click6").stop().animate({
 				top: 192,
 				left: 0
 			}, 500);
-			$("#click6").animate({
+			$("#click6").stop().animate({
 				height: '192px',
 				width: '384px'
 			}, 500);
@@ -242,11 +242,11 @@ $(document).ready(function() {
 
 				$("#click6 .block_content_nm").html(blockHTML);
 				$("#click6 .block_content_nm").css("background", "#a1131a");
-				$(".push6.click6").animate({
+				$(".push6.click6").stop().animate({
 					top: 192,
 					left: 0
 				});
-				$("#click6").css("z-index", "2").animate({
+				$("#click6").css("z-index", "2").stop().animate({
 					height: '192px',
 					width: '576px'
 				});
@@ -271,11 +271,11 @@ $(document).ready(function() {
 			
 			var blockHTML = $(this).find(".block_front").html();
 			
-			$(".push9.click9").animate({
+			$(".push9.click9").stop().animate({
 				top: 192,
 				left: 576
 			}, 500);
-			$("#click9").animate({
+			$("#click9").stop().animate({
 				height: '192px',
 				width: '384px'
 			}, 500);
@@ -299,11 +299,11 @@ $(document).ready(function() {
 
 				$("#click9 .block_content_nm").html(blockHTML);
 				$("#click9 .block_content_nm").css("background", "#a1131a");
-				$(".push9.click9").animate({
+				$(".push9.click9").stop().animate({
 					top: 192,
 					left: 384
 				});
-				$("#click9").css("z-index", "2").animate({
+				$("#click9").css("z-index", "2").stop().animate({
 					height: '192px',
 					width: '576px'
 				});
@@ -330,11 +330,11 @@ $(document).ready(function() {
 			
 			var blockHTML = $(this).find(".block_front").html();
 			
-			$(".push11.click11").animate({
+			$(".push11.click11").stop().animate({
 				top: 384,
 				left: 0
 			}, 100);
-			$("#click11").animate({
+			$("#click11").stop().animate({
 				height: '192px',
 				width: '384px'
 			}, 100);
@@ -358,11 +358,11 @@ $(document).ready(function() {
 
 				$("#click11 .block_content_nm").html(blockHTML);
 				$("#click11 .block_content_nm").css("background", "#a1131a");
-				$(".push11.click11").animate({
+				$(".push11.click11").stop().animate({
 					top: 384,
 					left: 0
 				});
-				$("#click11").css("z-index", "2").animate({
+				$("#click11").css("z-index", "2").stop().animate({
 					height: '192px',
 					width: '384px'
 				});

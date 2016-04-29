@@ -43,11 +43,11 @@ $(document).ready(function() {
 			
 			var blockHTML = $(this).find(".block_front").html();
 			
-			$(".push3.vid1").animate({
+			$(".push3.vid1").stop().animate({
 				top: 0,
 				left: 384
 			}, 500);
-			$("#video1").animate({
+			$("#video1").stop().animate({
 				height: '192px',
 				width: '384px'
 			}, 500);
@@ -71,11 +71,11 @@ $(document).ready(function() {
 
 				$("#video1 .block_content_nm").html(blockHTML);
 				$("#video1 .block_content_nm").css("background", "#a1131a");
-				$(".push3.vid1").animate({
+				$(".push3.vid1").stop().animate({
 					top: 0,
 					left: 384
 				});
-				$("#video1").css("z-index", "2").animate({
+				$("#video1").css("z-index", "2").stop().animate({
 					height: '384px',
 					width: '576px'
 				});
@@ -101,11 +101,11 @@ $(document).ready(function() {
 			
 			var blockHTML = $(this).find(".block_front").html();
 			
-			$(".push1.click1").animate({
+			$(".push1.click1").stop().animate({
 				top: 0,
 				left: 0
 			}, 500);
-			$("#click1").animate({
+			$("#click1").stop().animate({
 				height: '192px',
 				width: '576px'
 			}, 500);
@@ -129,11 +129,11 @@ $(document).ready(function() {
 
 				$("#click1 .block_content_nm").html(blockHTML);
 				$("#click1 .block_content_nm").css("background", "#a1131a");
-				$(".push1.click1").animate({
+				$(".push1.click1").stop().animate({
 					top: 0,
 					left: 0
 				});
-				$("#click1").css("z-index", "2").animate({
+				$("#click1").css("z-index", "2").stop().animate({
 					height: '384px',
 					width: '576px'
 				});
@@ -158,11 +158,11 @@ $(document).ready(function() {
 			
 			var blockHTML = $(this).find(".block_front").html();
 			
-			$(".push8.click8").animate({
+			$(".push8.click8").stop().animate({
 				top: 192,
 				left: 384
 			}, 100);
-			$("#click8").animate({
+			$("#click8").stop().animate({
 				height: '192px',
 				width: '576px'
 			}, 100);
@@ -186,11 +186,11 @@ $(document).ready(function() {
 
 				$("#click8 .block_content_nm").html(blockHTML);
 				$("#click8 .block_content_nm").css("background", "#a1131a");
-				$(".push8.click8").animate({
+				$(".push8.click8").stop().animate({
 					top: 192,
 					left: 384
 				});
-				$("#click8").css("z-index", "2").animate({
+				$("#click8").css("z-index", "2").stop().animate({
 					height: '192px',
 					width: '576px'
 				});
@@ -215,11 +215,11 @@ $(document).ready(function() {
 			
 			var blockHTML = $(this).find(".block_front").html();
 			
-			$(".push11").animate({
+			$(".push11").stop().animate({
 				top: 384,
 				left: 0
 			}, 500);
-			$("#click11").animate({
+			$("#click11").stop().animate({
 				height: '192px',
 				width: '576px'
 			}, 500);
@@ -243,11 +243,11 @@ $(document).ready(function() {
 
 				$("#click11 .block_content_nm").html(blockHTML);
 				$("#click11 .block_content_nm").css("background", "#a1131a");
-				$(".push11").animate({
+				$(".push11").stop().animate({
 					top: 192,
 					left: 0
 				});
-				$("#click11").css("z-index", "2").animate({
+				$("#click11").css("z-index", "2").stop().animate({
 					height: '384px',
 					width: '576px'
 				});
