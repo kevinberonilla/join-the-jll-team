@@ -502,26 +502,30 @@ $(document).ready(function () {
                     </div>
                     <div class="recognition_box">
                     	<div><br><img src="<?php bloginfo('template_directory'); ?>/images/recognition/energy-star-2014.png" class="center mb10"></div>
-                        Named by the U.S. Environmental Protection Agency as an Energy Star® Partner of the Year in 2007, 2010 and 2011 and the Sustained Excellence award 2012-2014
+                        Named by the U.S. Environmental Protection Agency as an Energy Star® Partner of the Year in 2007, 2010 and 2011, 2013 and 2015 and the Sustained Excellence award 2012-2015
                     </div>
                     <div class="recognition_box">
                     	<div><br><img src="<?php bloginfo('template_directory'); ?>/images/recognition/ethical-2014.png" class="center mb10"></div>
-                        Chosen by the Ethisphere Institute as one of the World’s Most Ethical Companies in 2008-2014
+                        Chosen by the Ethisphere Institute as one of the World’s Most Ethical Companies in 2008-2016
                     </div>
                 </div>
                 <div class="recognition_row2">
-                    <div class="align">
+                    <div class="align margin-top">
+                	<div class="recognition_box">
+                    	<div><img src="<?php bloginfo('template_directory'); ?>/images/recognition/test.png" class="center mb10"></div>
+                        Named by <em>Corporate Responsibility Officer Magazine</em>, JLL has been honored with a 100 Best Corporate Citizens aware in 2007, 2009, 2013 and 2015
+                        </div>
                 	<div class="recognition_box">
                     	<div><img src="<?php bloginfo('template_directory'); ?>/images/recognition/black-eoe-journal-2014.png" class="center mb10"></div>
-                        Named to Black <em>EOE Journal</em>’s “Best of the Best” lists for Top Diversity Employer and Top Supplier Diversity Program in 2013-2014
+                        Named to <em>Black EOE Journal’s</em> “Best of the Best” lists for Top Diversity Employer and Top Supplier Diversity Program in 2013-2015
                         </div>
                     <div class="recognition_box">
                     	<div><br><br><img src="<?php bloginfo('template_directory'); ?>/images/recognition/elite-100.png" class="center mb10"></div>
-                        Named to the 2014 InformationWeek Elite 100, a list of top business technology innovators
+                        Named to the 2015 InformationWeek Elite 100, a list of top business technology innovators
                     </div>
                     <div class="recognition_box">
                     	<div><img src="<?php bloginfo('template_directory'); ?>/images/recognition/hispanic-network-2014.png" class="center mb10"></div>
-                      Named to <em>Hispanic Network Magazine’s</em> “Best of the Best” lists for Top Diversity Employer and Top Supplier Diversity Program in 2013-2014 </div>
+                      Named to <em>Hispanic Network Magazine’s</em> “Best of the Best” lists for Top Diversity Employer and Top Supplier Diversity Program in 2013-2015</div>
                     </div>
                 </div>
             </div>
