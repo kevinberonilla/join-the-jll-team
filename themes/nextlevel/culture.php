@@ -494,29 +494,29 @@ $(document).ready(function () {
                 <div class="pointer"></div>
                 <div class="recognition_row1">
                 	<div class="recognition_box">
-                   	  <div><img src="<?php bloginfo('template_directory'); ?>/images/recognition/most-admired-companies-2015.png" class="center mb10"></div>
+                   	  <div><img src="<?php bloginfo('template_directory'); ?>/images/recognition/most-admired-companies-2016.png" class="center mb10"></div>
                     Named on <em>Fortune</em> magazine’s 2015 list of Most Admired Companies </div>
                     <div class="recognition_box">
-                    	<div><br><img src="<?php bloginfo('template_directory'); ?>/images/recognition/outsourcing-2015.png" class="center mb10"><br></div>
+                    	<div><br><img src="<?php bloginfo('template_directory'); ?>/images/recognition/outsourcing-2016.png" class="center mb10"><br></div>
                         Recognized by the IAOP (International Association of Outsourcing Professionals) on Outsourcing 100® list for the seventh consecutive year
                     </div>
                     <div class="recognition_box">
-                    	<div><br><img src="<?php bloginfo('template_directory'); ?>/images/recognition/energy-star-2014.png" class="center mb10"></div>
+                    	<div><br><img src="<?php bloginfo('template_directory'); ?>/images/recognition/energy-star-2016.png" class="center mb10"></div>
                         Named by the U.S. Environmental Protection Agency as an Energy Star® Partner of the Year in 2007, 2010 and 2011, 2013 and 2015 and the Sustained Excellence award 2012-2015
                     </div>
                     <div class="recognition_box">
-                    	<div><br><img src="<?php bloginfo('template_directory'); ?>/images/recognition/ethical-2014.png" class="center mb10"></div>
+                    	<div><br><img src="<?php bloginfo('template_directory'); ?>/images/recognition/ethical-2016.png" class="center mb10"></div>
                         Chosen by the Ethisphere Institute as one of the World’s Most Ethical Companies in 2008-2016
                     </div>
                 </div>
                 <div class="recognition_row2">
                     <div class="align margin-top">
                 	<div class="recognition_box">
-                    	<div><img src="<?php bloginfo('template_directory'); ?>/images/recognition/test.png" class="center mb10"></div>
+                    	<div><img src="<?php bloginfo('template_directory'); ?>/images/recognition/responsibility-2016.png" class="center mb10"></div>
                         Named by <em>Corporate Responsibility Officer Magazine</em>, JLL has been honored with a 100 Best Corporate Citizens aware in 2007, 2009, 2013 and 2015
                         </div>
                 	<div class="recognition_box">
-                    	<div><img src="<?php bloginfo('template_directory'); ?>/images/recognition/black-eoe-journal-2014.png" class="center mb10"></div>
+                    	<div><img src="<?php bloginfo('template_directory'); ?>/images/recognition/black-eoe-journal-2016.png" class="center mb10"></div>
                         Named to <em>Black EOE Journal’s</em> “Best of the Best” lists for Top Diversity Employer and Top Supplier Diversity Program in 2013-2015
                         </div>
                     <div class="recognition_box">
@@ -524,7 +524,7 @@ $(document).ready(function () {
                         Named to the 2015 InformationWeek Elite 100, a list of top business technology innovators
                     </div>
                     <div class="recognition_box">
-                    	<div><img src="<?php bloginfo('template_directory'); ?>/images/recognition/hispanic-network-2014.png" class="center mb10"></div>
+                    	<div><img src="<?php bloginfo('template_directory'); ?>/images/recognition/hispanic-network-2016.png" class="center mb10"></div>
                       Named to <em>Hispanic Network Magazine’s</em> “Best of the Best” lists for Top Diversity Employer and Top Supplier Diversity Program in 2013-2015</div>
                     </div>
                 </div>
@@ -657,7 +657,7 @@ $(document).ready(function () {
                 <div class="gray_box">
                 	<h2>We don’t just talk, we listen.</h2>
                     We survey our people on JLL’s culture annually, and each year we strive to be better over 7 key factors:
-					<img src="<?php bloginfo('template_directory'); ?>/images/table.png">
+					<img src="<?php bloginfo('template_directory'); ?>/images/brokerage-scores.jpg" class="brokerage-scores">
                     We break down the survey results market by market, and we take action to rectify, honor and/or reward appropriately. We care about happy clients AND happy teammates.
                 </div>
             </div>

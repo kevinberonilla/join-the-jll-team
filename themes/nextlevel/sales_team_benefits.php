@@ -421,7 +421,7 @@ Teamwork drives excellence</font>
                 <div class="gray_box white">
                     <ul class="white_bullet">
                         <li>Dedicated IT help line</li>
-                        <li>Upgraded laptop</li>
+                        <li>High-end laptop</li>
                         <li>Peer recognition and single room during Academy</li>
                         <li>Annual WSJ recognition ad</li>
                         <li>Dedicated Academy lounge for Top Guns</li>
@@ -458,11 +458,11 @@ Teamwork drives excellence</font>
                 	Adding value to our business, our people and our brand
                     <ul>
                     	<li>Membership in the ERGs has grown to over 6500 strong (38% of the US employee population)</li>
-                        <li>ERGs represent every area of the business, membership sits in over 200 locations US-wide and ERGs have generated over $800k in business won YTD</li>
+                        <li>ERGs represent every area of the business, membership sits in over 200 locations US-wide and ERGs have generated over $1.25 million in business won YTD</li>
                     </ul>
                     
                     <br><br><br>
-					<img src="<?php bloginfo('template_directory'); ?>/images/flips/employee_resource_groups_logos-v3.png">
+					<img src="<?php bloginfo('template_directory'); ?>/images/flips/employee_resource_groups_logos_v4.png">
                 </div>
             </div>
         </div>

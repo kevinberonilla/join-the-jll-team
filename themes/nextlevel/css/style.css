@@ -474,7 +474,25 @@ strong.times {
 
 .recognition_row2 .align.margin-top {
     width: 100%;
-    margin-top: 8px;
+    /*    margin-top: 8px;*/
+}
+
+.brokerage-scores {
+    width: 320px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.investor-list {
+    list-style: none;
+    padding-left: none;
+}
+
+.investor-list li {
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding; 0;
 }
 
 .recognition_box {
