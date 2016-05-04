@@ -218,7 +218,7 @@ $(document).ready(function () {
                 <div class="statistics black">Faster path to success</div>
                 <div class="pointer"></div>
                 <div class="gray_box">
-                    <br><br><p align="center">In 2014, recruit’s revenues were 30% more than they were at their previous firms. </p><br><br><br>
+                    <br><br><p align="center">New recruits earned over 30% more revenue in 2015 than they did at their previous firms.</p><br><br><br>
 					<img src="<?php bloginfo('template_directory'); ?>/images/flips/faster_path_to_success_v3.png" class="center">
                 </div>
             </div>
@@ -262,7 +262,7 @@ $(document).ready(function () {
                 <div class="gray_box">
                 	<p align="center">JLL producers generate the highest revenue per producer in the industry, which is 35% higher than our direct competitor.</p>
                     <br>
-					<img src="<?php bloginfo('template_directory'); ?>/images/flips/wealth_creation_v2.png" class="center">
+					<img src="<?php bloginfo('template_directory'); ?>/images/flips/wealth_creation_v3.png" class="center">
                 </div>
             </div>
         </div>
@@ -278,7 +278,7 @@ $(document).ready(function () {
     	<div class="block_2x1">
         	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/make_more_money_11.png"></div>
         	<div class="block_content">
-            	<font class="times_22 white">JLL producers generate the highest revenue per producer in the industry, which is 40% higher than our direct competitor</font>
+            	<font class="times_22 white">JLL producers generate the highest revenue per producer in the industry, which is 35% higher than our direct competitor.</font>
             </div>
         </div>
     </div>

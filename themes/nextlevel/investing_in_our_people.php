@@ -448,11 +448,11 @@ $(document).ready(function () {
                 <div class="gray_box">
                 	<div class="clearfix">
                         <div class="nho_left">
-                            Our biannual New Hire Orientation:
+                            Our Semiannual New Hire Orientation:
                             <ul>
                                 <li>Provides an introduction to our people and our business</li>
                                 <li>Enhances productivity by reducing the learning curve</li>
-                                <li>Offers networking and Q&A with our top producing talent</li>
+                                <li>Offers networking and Q&amp;A with our top producing talent</li>
                             </ul><br>
                             
                             <font class="times_16 gray">“I thought the program was great; very well-orchestrated and worthwhile. I left my old firm

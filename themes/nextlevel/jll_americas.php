@@ -326,30 +326,30 @@ $(document).ready(function() {
 	<div class="push12" style="z-index:9998">
     	<div class="block_1x1 clickable" id="retail">
         	<div class="block_content">
-                <h1><strong>90+<small>or 60% growth</small></strong></h1>
+                <h1><strong>78%<small>growth</small></strong></h1>
                 <h2>Retail<br>brokers</h2>
                 <div class="statistics">Statistics</div>
                 <div class="pointer"></div>
             </div>
 
             <div class="block_front">
-                <h1><strong>90+<small>or 60% growth</small></strong></h1>
+                <h1><strong>78%<small>growth</small></strong></h1>
                 <h2>Retail<br>brokers</h2>
                 <div class="statistics">Statistics</div>
                 <div class="pointer"></div>
             </div>
             
             <div class="block_back">
-                <h1><strong>90+<small>or 60% growth</small></strong></h1>
+                <h1><strong>78%<small>growth</small></strong></h1>
                 <h2>Retail<br>brokers</h2>
                 
-                <h1><strong>116%</strong></h1>
+                <h1><strong>71%</strong></h1>
                 <h2>retail transaction value growth</h2>
                 
-                <h1><strong>106%</strong></h1>
+                <h1><strong>66%</strong></h1>
                 <h2>growth in retail clients</h2>
                 
-                <h1><strong>105%</strong></h1>
+                <h1><strong>68%</strong></h1>
                 <h2>growth in total revenue</h2>
                 <div class="pointer"></div>
             </div>

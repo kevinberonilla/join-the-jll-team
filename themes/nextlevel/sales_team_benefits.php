@@ -462,7 +462,7 @@ Teamwork drives excellence</font>
                     </ul>
                     
                     <br><br><br>
-					<img src="<?php bloginfo('template_directory'); ?>/images/flips/employee_resource_groups_logos_v4.png">
+					<img src="<?php bloginfo('template_directory'); ?>/images/flips/employee_resource_groups_logos-v4.png">
                 </div>
             </div>
         </div>

@@ -656,9 +656,10 @@ $(document).ready(function () {
                 <div class="pointer"></div>
                 <div class="gray_box">
                 	<h2>We don’t just talk, we listen.</h2>
-                    We survey our people on JLL’s culture annually, and each year we strive to be better over 7 key factors:
+                    We survey our people on JLL’s culture, and we strive to be better over 7 key factors:
 					<img src="<?php bloginfo('template_directory'); ?>/images/brokerage-scores.jpg" class="brokerage-scores">
-                    We break down the survey results market by market, and we take action to rectify, honor and/or reward appropriately. We care about happy clients AND happy teammates.
+                    <?php /*We break down the survey results market by market, and we take action to rectify, honor and/or reward appropriately. We care about happy clients AND happy teammates.*/ ?>
+                    I would gladly recommend a career at JLL: 88%
                 </div>
             </div>
         </div>

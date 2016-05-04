@@ -471,10 +471,10 @@ $(document).ready(function () {
                         </div>
                         <div class="right_half white">
                             <ul class="txt_11 white_bullet">
-                                <li>$10M in revenue in 2014</li>
-                                <li>$10M in savings for clients</li>
-                                <li>150+ years of collective team experience</li>
-                                <li>11 experts in tax, legal &amp; economic development</li>
+                                <li>$10M in revenue in 2015</li>
+                                <li>$212M in savings for clients</li>
+                                <li>130+ years of collective team experience</li>
+                                <li>12 experts in tax, legal &amp; economic development</li>
                             </ul>
                         </div>
                     </div>
@@ -515,13 +515,13 @@ $(document).ready(function () {
                         </div>
                         <div class="right_half white">
                             <ul class="txt_11 white_bullet">
-                                <li>$6M in revenue in 2014</li>
+                                <li>$4M in revenue in 2015</li>
                                 <li>6 consultants, 100+ years of total team experience</li>
                                 <li>Deep experience across all geographies and R&amp;D, Manufacturing and Office assets</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="flip_name white">Business Consulting<br>	and Location Advisory</div>
+                    <div class="flip_name white">Business Consulting<br>and Location Advisory</div>
                 </div>
             </div>
         </div>
@@ -555,12 +555,12 @@ $(document).ready(function () {
                     	<div class="left_half white">
                         	iDESK<br><br><br>
                             
-                            <font class="times_26">18M s.f.<br>in 2014</font><br><br><br>
+                            <font class="times_26">14M s.f.<br>in 2015</font><br><br><br>
                             
                             <ul class="white_bullet">
-                                <li>382+ transactions in 49 countries 2014</li>
-                                <li>138  global markets</li>
-                                <li>7 individuals speaking 9 languages</li>
+                                <li>445+ transactions in 61 countries 2015</li>
+                                <li>174 global markets</li>
+                                <li>9 individuals speaking 12 languages</li>
                             </ul>
                         </div>
                         <div class="right_half white">
@@ -568,7 +568,7 @@ $(document).ready(function () {
                             
                             <font class="times_26">SPOC for 25 top investors</font><br><br><br>
                             
-                            Comprised of Agency Leasing	 leadership from across the globe to facilitate global best practices and connect relationship dots to help our teams execute business.
+                            Comprised of Agency Leasing leadership from across the globe to facilitate global best practices and connect relationship dots to help our teams execute business.
                         </div>
                     </div>
                 </div>
@@ -603,15 +603,15 @@ $(document).ready(function () {
                 <div class="gray_box white">
                     <div class="clearfix">
                         <div class="left_half white">
-                            <h1 class="white"><strong>72%</strong></h1>
+                            <h1 class="white"><strong>69%</strong></h1>
                             <font class="times_26">win rate</font>
                         </div>
                         <div class="right_half white">
                             <ul class="white_bullet">
-                              <li>$277M in revenue in 2014</li>
-                              <li>1.3B total s.f.</li>
-                              <li>269 total accounts</li>
-                              <li>26% YOY Growth</li>
+                              <li>$314M in revenue in 2015</li>
+                              <li>1.6B total s.f.</li>
+                              <li>333 total accounts</li>
+                              <li>15% YOY Growth</li>
                             </ul>
                         </div>
                     </div>
@@ -647,11 +647,11 @@ $(document).ready(function () {
                         </div>
                         <div class="right_half white">
                             <ul class="white_bullet">
-                                <li>$12B in project volume managed in 2014</li>
+                                <li>$12B in project volume managed in 2015</li>
                                 <li>1,436 dedicated professionals</li>
-                                <li>19,363 projects in 2014</li>
+                                <li>19,363 projects in 2015</li>
                                 <li>4.71 out of 5, average client satisfaction score</li>
-                                <li>Clients saved more than $346M in 2014</li>
+                                <li>Clients saved more than $346M in 2015</li>
                             </ul>
                         </div>
                     </div>
@@ -688,8 +688,8 @@ $(document).ready(function () {
                         </div>
                         <div class="right_half white">
                             <ul class="txt_11 white_bullet">
-                                <li>$71M in revenue in 2014</li>
-                                <li>100+ deals in 22 markets in 2014</li>
+                                <li>$88M in revenue in 2015</li>
+                                <li>2,000+ deals in 30 markets in 2015</li>
                                 <li>Network Optimization and Business Strategy</li>
                             </ul>
                         </div>
@@ -705,7 +705,7 @@ $(document).ready(function () {
     <div class="push13">
     	<div class="block_2x1 win">
         	<div class="block_content consulting_experts">
-            	<font class="times_28 yellow">Our consulting experts are a true differentiator, helping you win business over 70% of the time</font>
+            	<font class="times_28 yellow">Our consulting experts are a true differentiator, helping you win business 69% of the time</font>
             </div>
         </div>
     </div>

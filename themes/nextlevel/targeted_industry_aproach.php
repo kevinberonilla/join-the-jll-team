@@ -451,11 +451,11 @@ $(document).ready(function () {
                             <strong>Thought leaders</strong><br>Making you and your clients smarter; thought provoking topics broken down and explored in a simplified way
                         </div>
                         <div class="wp_right">
-                            <div class="clearfix"><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/2015/The Nerds_white paper_winter 2014.pdf"><img src="<?php bloginfo('template_directory'); ?>/images/flips/white_papers_icon.png" class="icon_right" target="_blank" ></a><br>
+                            <div class="clearfix"><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/2016/US-NERDS-Winter-2016-JLL.pdf"><img src="<?php bloginfo('template_directory'); ?>/images/flips/white_papers_icon.png" class="icon_right" target="_blank" ></a><br>
                             <br>
                             <br>
                             <br>
-    <font class="icon_txt white"><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/2015/The Nerds_white paper_winter 2014.pdf">Sample White Paper – Office Perspective: The NERDS</a></font></div>
+    <font class="icon_txt white"><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/2016/US-NERDS-Winter-2016-JLL.pdf">Sample White Paper – Office Perspective: The NERDS</a></font></div>
                             
                         </div>
                     </div>
@@ -488,11 +488,11 @@ $(document).ready(function () {
                     <strong>Need a deep-dive analysis into a given Industry?</strong><br>Our annual reports provide detailed Industry information, right down to the individual market level.<br><br><br><br><br><br>
                     
                     <div class="ar_holder">
-                        <div class="clearfix"><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/2015/U.S. High Technology Outlook - 9-2014 - JLL.pdf"><img src="<?php bloginfo('template_directory'); ?>/images/flips/annual_reports_icon.png" class="icon_right"></a><br>
+                        <div class="clearfix"><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/2016/2015-technology-trends-market-outlook.pdf"><img src="<?php bloginfo('template_directory'); ?>/images/flips/annual_reports_icon.png" class="icon_right"></a><br>
     <br>
     <br>
     <br>
-    <font class="icon_txt white"><strong><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/2015/U.S. High Technology Outlook - 9-2014 - JLL.pdf">Sample Report – Hi-Tech Office Outlook</a></strong></font></div>
+    <font class="icon_txt white"><strong><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/2016/2015-technology-trends-market-outlook.pdf">Sample Report – Hi-Tech Office Outlook</a></strong></font></div>
                         
                     </div>
                     <div class="flip_name white">ANNUAL REPORTs</div>
@@ -527,11 +527,11 @@ $(document).ready(function () {
     
                         </div>
                         <div class="wp_right">
-                            <div class="clearfix"><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/Energy-Infographics-Campaign.pdf"><img src="<?php bloginfo('template_directory'); ?>/images/flips/campaign_icon.png" class="icon_right"></a><br>
+                            <div class="clearfix"><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/2016/Energy-Outlook_Infographic.pdf"><img src="<?php bloginfo('template_directory'); ?>/images/flips/campaign_icon.png" class="icon_right"></a><br>
     <br>
     <br>
     <br>
-    <font class="icon_txt white"><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/Energy-Infographics-Campaign.pdf">Sample campaign – Energy</a></font></div>
+    <font class="icon_txt white"><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/2016/Energy-Outlook_Infographic.pdf">Sample campaign – Energy</a></font></div>
                             
                         </div>
                     </div>
@@ -568,11 +568,11 @@ $(document).ready(function () {
                         	Everything you need to have impactful conversations in a given Industry:<br>topical, timely dive into trends impacting an industry and how it may create challenges or opportunities in its real estate strategy. It’s us having a vehicle to address the latest issues and keep clients up to date on events, trends and their impact on RE as they develop.  
                         </div>
                         <div class="dt_right">
-                        	<div class="clearfix"><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/2015/what-oil-price-drop-means-for-economy-and-office-markets-141215124642-conversion-gate02.pdf"><img src="<?php bloginfo('template_directory'); ?>/images/flips/toolkit_icon.png" class="icon_right"></a><br>
+                        	<div class="clearfix"><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/2016/q4-2015-office-market-trends-160111194505.pdf"><img src="<?php bloginfo('template_directory'); ?>/images/flips/toolkit_icon.png" class="icon_right"></a><br>
 <br>
 <br>
 <br>
-<font class="icon_txt white"><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/2015/what-oil-price-drop-means-for-economy-and-office-markets-141215124642-conversion-gate02.pdf">Sample Two-Cents Deck – Oil Prices</a></font></div>
+<font class="icon_txt white"><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/2016/q4-2015-office-market-trends-160111194505.pdf">Sample Two-Cents Deck – Oil Prices</a></font></div>
                             
                         </div>
                 	</div>
@@ -655,11 +655,11 @@ $(document).ready(function () {
                             </ul>
                         </div>
                         <div class="wp_right">
-                            <div class="clearfix"><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/2015/TR_one-pager_Data-Centers_Insighter.pdf"><img src="<?php bloginfo('template_directory'); ?>/images/flips/insight_icon.png" class="icon_right"></a><br>
+                            <div class="clearfix"><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/2016/Industry-Insighter-TR_Off-the-shelf_Law-Firms_ Insighter.pdf"><img src="<?php bloginfo('template_directory'); ?>/images/flips/insight_icon.png" class="icon_right"></a><br>
     <br>
     <br>
     <br>
-    <font class="icon_txt white"><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/2015/TR_one-pager_Data-Centers_Insighter.pdf">Sample inSighter – Data Centers</a></font></div>
+    <font class="icon_txt white"><a class="pdf_link" target="_blank" href="<?php bloginfo('template_directory'); ?>/pdf/2016/Industry-Insighter-TR_Off-the-shelf_Law-Firms_ Insighter.pdf">Sample inSighter – Data Centers</a></font></div>
                             
                         </div>
                     </div>

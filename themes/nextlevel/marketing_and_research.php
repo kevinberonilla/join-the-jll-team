@@ -339,7 +339,7 @@ $(document).ready(function () {
                 <div class="pointer"></div>
                 <div class="gray_box white">
                     <ul class="white_bullet">
-                        <li>Over 200 marketers in the Americas focused on both national and local marketing support</li>
+                        <li>Over 250 marketers in the Americas focused on both national and local marketing support</li>
                         <li>Global leader in Social Media with 43.1% share of voice, which is over 20% higher than our next closest competitor</li>
                     </ul>
                     <ul class="m_10 white_bullet">
