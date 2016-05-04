@@ -260,8 +260,8 @@ $(document).ready(function () {
                 <div class="statistics black">Your financial future</div>
                 <div class="pointer"></div>
                 <div class="gray_box">
-                	<p align="center">JLL producers generate the highest revenue per producer in the industry, which is 35% higher than our direct competitor.</p>
-                    <br>
+                	<?php /*<p align="center">JLL producers generate the highest revenue per producer in the industry, which is 35% higher than our direct competitor.</p>
+                    <br>*/ ?>
 					<img src="<?php bloginfo('template_directory'); ?>/images/flips/wealth_creation_v3.png" class="center">
                 </div>
             </div>
