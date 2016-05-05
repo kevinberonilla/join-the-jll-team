@@ -466,7 +466,7 @@ $(document).ready(function () {
                 <div class="gray_box white">
                     <div class="clearfix">
                         <div class="left_half white">
-                            <h1 class="white"><strong>80%</strong></h1>
+                            <h1 class="white"><strong>82%</strong></h1>
                             <font class="times_26">win rate</font>
                         </div>
                         <div class="right_half white">
