@@ -932,11 +932,13 @@ $(document).ready(function () {
         	<div class="block_content_nm">
             	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/index_9_042816.jpg"></div>
                 <div class="statistics shadow">Nicole Mort</div>
+                <div class="pointer"></div>
             </div>
 
             <div class="block_front">
             	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/index_9_042816.jpg"></div>
                 <div class="statistics shadow">Nicole Mort</div>
+                <div class="pointer"></div>
             </div>
             
             <div class="block_back">
@@ -957,11 +959,13 @@ $(document).ready(function () {
         	<div class="block_content_nm">
             	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/index_10_042816.jpg"></div>
                 <div class="statistics shadow">Zach Boroson</div>
+                <div class="pointer"></div>
             </div>
 
             <div class="block_front">
             	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/index_10_042816.jpg"></div>
                 <div class="statistics shadow">Zach Boroson</div>
+                <div class="pointer"></div>
             </div>
             
             <div class="block_back">

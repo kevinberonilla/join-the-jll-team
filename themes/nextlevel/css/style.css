@@ -925,6 +925,11 @@ h1.white {
     color: #D2A4A6;
 }
 
+.true-red {
+    font-weight: bold;
+    color: #A2141A;
+}
+
 .overflow {
     overflow: auto;
 }

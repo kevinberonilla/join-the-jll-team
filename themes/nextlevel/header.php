@@ -93,7 +93,7 @@ if ($cur_user_level >= 7) {
         <!--CSS-->
         <link href="<?php bloginfo('template_directory'); ?>/css/grid.css" rel="stylesheet" type="text/css">
         <link href="<?php bloginfo('template_directory'); ?>/css/nav.css" rel="stylesheet" type="text/css">
-        <link href="<?php bloginfo('template_directory'); ?>/css/style.css?v=1.03" rel="stylesheet" type="text/css">
+        <link href="<?php bloginfo('template_directory'); ?>/css/style.css?v=1.04" rel="stylesheet" type="text/css">
         
         
         

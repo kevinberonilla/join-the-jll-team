@@ -23,6 +23,8 @@ $(document).ready(function() {
 
 <script>
 $(document).ready(function() {
+    
+    var size = 192;
 
 	$(".block_front").hide();
     $(".block_back").hide();
@@ -40,24 +42,24 @@ $(document).ready(function() {
 			$(this).removeClass("clicked");
 		
 			// click tracking
-			_gaq.push(["_trackEvent", "<?php echo $cur_username; ?>", "click", "Win more | Tools and innovation | iLocate | Stats", ($.now() - loadedSeconds), false]);
+			_gaq.push(["_trackEvent", "<?php echo $cur_username; ?>", "click", "Win more | Tools and innovation | iLocate | Video", ($.now() - loadedSeconds), false]);
 			
 			var blockHTML = $(this).find(".block_front").html();
 			
 			$(".push1.click1").stop().animate({
 				top: 0,
 				left: 0
-			}, 100);
+			}, 500);
 			$("#click1").stop().animate({
-				height: '192px',
-				width: '576px'
-			}, 100);
+                height: size + 'px',
+                width: size * 2 + 'px'
+			}, 500);
 			
 			setTimeout(function() {
 				$("#click1 .block_content_nm").html(blockHTML);
 				$("#click1 .block_content_nm").css("background", "none");
 				$("#click1").css("z-index", "0");
-			}, 100);
+			}, 500);
 			
 			// BG
 			$('.black_bg').fadeOut(250);
@@ -77,10 +79,11 @@ $(document).ready(function() {
 					left: 0
 				});
 				$("#click1").css("z-index", "2").stop().animate({
-					height: '192px',
-					width: '576px'
+                    height: size * 2 + 'px',
+                    width: size * 3 + 'px'
 				});
 				$(this).addClass("clicked");
+				$('#player1').attr('src', '').attr('src', '//player.vimeo.com/video/80277400?autoplay=1');
 				
 				// BG
 				$('.black_bg').fadeIn(250);
@@ -89,64 +92,6 @@ $(document).ready(function() {
 		}
 	});
 	
-	
-	// 4
-	$("#click4").click(function() {
-		var checkClicked = $('.clicked').doesExist();
-
-		if ($(this).hasClass("clicked")) {
-			$(this).removeClass("clicked");
-		
-			// click tracking
-			_gaq.push(["_trackEvent", "<?php echo $cur_username; ?>", "click", "Win more | Tools and innovation | iLocate | Video", ($.now() - loadedSeconds), false]);
-			
-			var blockHTML = $(this).find(".block_front").html();
-			
-			$(".push4.click4").stop().animate({
-				top: 0,
-				left: 576
-			}, 500);
-			$("#click4").stop().animate({
-				height: '192px',
-				width: '384px'
-			}, 500);
-			
-			setTimeout(function() {
-				$("#click4 .block_content_nm").html(blockHTML);
-				$("#click4 .block_content_nm").css("background", "none");
-				$("#click4").css("z-index", "0");
-			}, 500);
-			
-			// BG
-			$('.black_bg').fadeOut(250);
-			$(this).removeClass('zix');
-			
-		} else {
-			if (checkClicked == false) {
-				var blockHTML = $(this).find(".block_back").html();
-				
-				// for click tracking
-				loadedSeconds = $.now();
-
-				$("#click4 .block_content_nm").html(blockHTML);
-				$("#click4 .block_content_nm").css("background", "#a1131a");
-				$(".push4.click4").stop().animate({
-					top: 0,
-					left: 384
-				});
-				$("#click4").css("z-index", "2").stop().animate({
-					height: '384px',
-					width: '576px'
-				});
-				$(this).addClass("clicked");
-				$('#player4').attr('src', '').attr('src', '//player.vimeo.com/video/80277400?autoplay=1');
-				
-				// BG
-				$('.black_bg').fadeIn(250);
-				$(this).addClass('zix')
-			}
-		}
-	});
 	
 	// 7
 	$("#click7").click(function() {
@@ -376,21 +321,21 @@ $(document).ready(function () {
     <div class="push1 click1">
     	<div class="block_2x1 clickable" id="click1">
         	<div class="block_content_nm">
-            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_4.jpg"></div>
-                <div class="statistics black">A VIEW OF iLOCATE</div>
+            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_1_2016.jpg"></div>
+                <div class="statistics black">Blackbird</div>
             </div>
 
             <div class="block_front">
-            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_4.jpg"></div>
-                <div class="statistics black">A VIEW OF iLOCATE</div>
+            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_1_2016.jpg"></div>
+                <div class="statistics black">Blackbird</div>
             </div>
             
             <div class="block_back">
             	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/3x2.png"></div>
-                <div class="statistics black">A VIEW OF iLOCATE</div>
+                <div class="statistics black">Blackbird</div>
                 <div class="pointer"></div>
                 <div class="gray_box">
-                	<iframe id="player4" src="//player.vimeo.com/video/80277400?autoplay=0" width="536" height="301" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                	<iframe id="player1" src="//player.vimeo.com/video/160908066?autoplay=0" width="536" height="301" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -404,7 +349,8 @@ $(document).ready(function () {
     	<div class="block_3x1">
         	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_11.png"></div>
         	<div class="block_content">
-            	<font class="times_28 yellow"><span class="times white">Differentiating sales tools:</span> $300M+ annual global investment in new technology tools and innovations</font>
+                <font class="times_32 yellow">Differentiating sales tools:</font><br>
+            	<font class="times_22 white">$300M+ annual global investment in new technology tools and innovations</font>
             </div>
         </div>
     </div>
@@ -421,14 +367,14 @@ $(document).ready(function () {
             <div class="block_front">
             	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_7.jpg"></div>
                 <div class="statistics">BROKER PORTAL</div>
-            </div>
+f            </div>
             
             <div class="block_back">
             	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/3x2.png"></div>
                 <div class="statistics black">BROKER PORTAL</div>
                 <div class="pointer"></div>
                 <div class="gray_box">
-                	<iframe id="player7" src="//player.vimeo.com/video/80377592?autoplay=0" width="536" height="301" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                	<iframe id="player6" src="//player.vimeo.com/video/80377592?autoplay=0" width="536" height="301" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -438,21 +384,30 @@ $(document).ready(function () {
     <div class="push7 click7">
     	<div class="block_2x1 clickable" id="click7">
         	<div class="block_content_nm">
-            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_7.jpg"></div>
-                <div class="statistics">BROKER PORTAL</div>
+            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_9.png"></div>
+                <div class="flip_info">
+                    <h2>Your one-stop</h2>
+                	<h1 class="bold">dashboard</h1>
+                    <h2>for business-critical <br>information</h2>
+                </div>
+                <div class="pointer"></div>
             </div>
 
             <div class="block_front">
-            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_7.jpg"></div>
-                <div class="statistics">BROKER PORTAL</div>
+            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_9.png"></div>
+                <div class="flip_info">
+                    <h2>Your one-stop</h2>
+                	<h1 class="bold">dashboard</h1>
+                    <h2>for business-critical information</h2>
+                </div>
+                <div class="pointer"></div>
             </div>
             
             <div class="block_back">
-            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/3x2.png"></div>
-                <div class="statistics black">BROKER PORTAL</div>
                 <div class="pointer"></div>
-                <div class="gray_box">
-                	<iframe id="player7" src="//player.vimeo.com/video/80377592?autoplay=0" width="536" height="301" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <div class="gray_box white">
+                    Broker Portal is a customizable, web-based application that aggregates broker information from multiple sources into one place, eliminating the need to go into multiple systems. It provides a snapshot of key metrics, including client activities, personal pipeline, revenue, commissions and key activities across teams and the organization.
+                    <div class="flip_name white">Broker Portal</div>
                 </div>
             </div>
         </div>
@@ -476,7 +431,7 @@ $(document).ready(function () {
                 <div class="statistics black">BROKER PORTAL</div>
                 <div class="pointer"></div>
                 <div class="gray_box">
-                	<iframe id="player7" src="//player.vimeo.com/video/80377592?autoplay=0" width="536" height="301" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                	<iframe id="player9" src="//player.vimeo.com/video/80377592?autoplay=0" width="536" height="301" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -500,7 +455,7 @@ $(document).ready(function () {
                 <div class="statistics black">BROKER PORTAL</div>
                 <div class="pointer"></div>
                 <div class="gray_box">
-                	<iframe id="player7" src="//player.vimeo.com/video/80377592?autoplay=0" width="536" height="301" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                	<iframe id="player10" src="//player.vimeo.com/video/80377592?autoplay=0" width="536" height="301" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -567,7 +522,7 @@ $(document).ready(function () {
                 <div class="statistics black">A VIEW OF BLACKBIRD</div>
                 <div class="pointer"></div>
                 <div class="gray_box">
-                	<iframe id="player14" src="//player.vimeo.com/video/80275807?autoplay=0" width="536" height="301" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                	<iframe id="player13" src="//player.vimeo.com/video/80275807?autoplay=0" width="536" height="301" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>
         </div>
