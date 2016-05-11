@@ -349,32 +349,36 @@ $(document).ready(function () {
     	<div class="block_3x1">
         	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_11.png"></div>
         	<div class="block_content">
-                <font class="times_32 yellow">Differentiating sales tools:</font><br>
-            	<font class="times_22 white">$300M+ annual global investment in new technology tools and innovations</font>
+                <font class="times_28 yellow">
+                    <strong class="times">Differentiating sales tools:</strong>
+                    <br>
+                    <br>
+                    $300M+ annual global investment in new technology tools and innovations
+                </font>
             </div>
         </div>
     </div>
     
     
-    <!-- 6 -->
+    <!--6-->
     <div class="push6 click6">
     	<div class="block_1x1 clickable" id="click6">
         	<div class="block_content_nm">
-            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_7.jpg"></div>
-                <div class="statistics">BROKER PORTAL</div>
+            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_6_2016.jpg"></div>
+                <div class="statistics black">PAT</div>
             </div>
 
             <div class="block_front">
-            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_7.jpg"></div>
-                <div class="statistics">BROKER PORTAL</div>
+            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_6_2016.jpg"></div>
+                <div class="statistics black">PAT</div>
 f            </div>
             
             <div class="block_back">
             	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/3x2.png"></div>
-                <div class="statistics black">BROKER PORTAL</div>
+                <div class="statistics black">PAT</div>
                 <div class="pointer"></div>
                 <div class="gray_box">
-                	<iframe id="player6" src="//player.vimeo.com/video/80377592?autoplay=0" width="536" height="301" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                	<iframe id="player6" src="//player.vimeo.com/video/160929068?autoplay=0" width="536" height="301" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -415,23 +419,23 @@ f            </div>
     
     <!--9-->
     <div class="push9 click9">
-    	<div class="block_1x2 clickable" id="click9">
+    	<div class="block_1x1 clickable" id="click9">
         	<div class="block_content_nm">
-            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_7.jpg"></div>
-                <div class="statistics">BROKER PORTAL</div>
+            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_9_2016.jpg"></div>
+                <div class="statistics black">RED</div>
             </div>
 
             <div class="block_front">
-            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_7.jpg"></div>
-                <div class="statistics">BROKER PORTAL</div>
+            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_9_2016.jpg"></div>
+                <div class="statistics black">RED</div>
             </div>
             
             <div class="block_back">
             	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/3x2.png"></div>
-                <div class="statistics black">BROKER PORTAL</div>
+                <div class="statistics black">RED</div>
                 <div class="pointer"></div>
                 <div class="gray_box">
-                	<iframe id="player9" src="//player.vimeo.com/video/80377592?autoplay=0" width="536" height="301" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                	<iframe id="player9" src="//player.vimeo.com/video/160916827?autoplay=0" width="536" height="301" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -441,21 +445,21 @@ f            </div>
     <div class="push10 click10">
     	<div class="block_1x2 clickable" id="click10">
         	<div class="block_content_nm">
-            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_7.jpg"></div>
-                <div class="statistics">BROKER PORTAL</div>
+            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_10_2016.jpg"></div>
+                <div class="statistics black">JLL Academy Lounge</div>
             </div>
 
             <div class="block_front">
-            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_7.jpg"></div>
-                <div class="statistics">BROKER PORTAL</div>
+            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_10_2016.jpg"></div>
+                <div class="statistics black">JLL Academy Lounge</div>
             </div>
             
             <div class="block_back">
             	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/3x2.png"></div>
-                <div class="statistics black">BROKER PORTAL</div>
+                <div class="statistics black">JLL Academy Lounge</div>
                 <div class="pointer"></div>
                 <div class="gray_box">
-                	<iframe id="player10" src="//player.vimeo.com/video/80377592?autoplay=0" width="536" height="301" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                	<iframe id="player10" src="//player.vimeo.com/video/160944003?autoplay=0" width="536" height="301" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -508,23 +512,33 @@ f            </div>
     <div class="push13 click13">
     	<div class="block_1x1 clickable" id="click13">
         	<div class="block_content_nm">
-            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_14.jpg"></div>
-                <div class="statistics black">A VIEW OF BLACKBIRD</div>
+            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_13_2016.jpg"></div>
+                <div class="statistics black">Skyline</div>
             </div>
 
             <div class="block_front">
-            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_14.jpg"></div>
-                <div class="statistics black">A VIEW OF BLACKBIRD</div>
+            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_13_2016.jpg"></div>
+                <div class="statistics black">Skyline</div>
             </div>
             
             <div class="block_back">
             	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/3x2.png"></div>
-                <div class="statistics black">A VIEW OF BLACKBIRD</div>
+                <div class="statistics black">Skyline</div>
                 <div class="pointer"></div>
                 <div class="gray_box">
                 	<iframe id="player13" src="//player.vimeo.com/video/80275807?autoplay=0" width="536" height="301" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <!--14-->
+    <div class="push14">
+    	<div class="block_1x1">
+        	<div class="block_content_nm"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_14_2016.png"></div>
         </div>
     </div>
 
