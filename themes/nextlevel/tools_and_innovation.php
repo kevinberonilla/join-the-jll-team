@@ -42,7 +42,7 @@ $(document).ready(function() {
 			$(this).removeClass("clicked");
 		
 			// click tracking
-			_gaq.push(["_trackEvent", "<?php echo $cur_username; ?>", "click", "Win more | Tools and innovation | iLocate | Video", ($.now() - loadedSeconds), false]);
+			_gaq.push(["_trackEvent", "<?php echo $cur_username; ?>", "click", "Win more | Tools and innovation | Blackbird | Video", ($.now() - loadedSeconds), false]);
 			
 			var blockHTML = $(this).find(".block_front").html();
 			
@@ -83,7 +83,66 @@ $(document).ready(function() {
                     width: size * 3 + 'px'
 				});
 				$(this).addClass("clicked");
-				$('#player1').attr('src', '').attr('src', '//player.vimeo.com/video/80277400?autoplay=1');
+				$('#player1').attr('src', '').attr('src', '//player.vimeo.com/video/160908066?autoplay=1');
+				
+				// BG
+				$('.black_bg').fadeIn(250);
+				$(this).addClass('zix')
+			}
+		}
+	});
+	
+	
+	// 6
+	$("#click6").click(function() {
+		var checkClicked = $('.clicked').doesExist();
+
+		if ($(this).hasClass("clicked")) {
+			$(this).removeClass("clicked");
+		
+			// click tracking
+			_gaq.push(["_trackEvent", "<?php echo $cur_username; ?>", "click", "Win more | Tools and innovation | PAT | Video", ($.now() - loadedSeconds), false]);
+			
+			var blockHTML = $(this).find(".block_front").html();
+			
+			$(".push6.click6").stop().animate({
+				top: size,
+				left: 0
+			}, 500);
+			$("#click6").stop().animate({
+                height: size + 'px',
+                width: size + 'px'
+			}, 500);
+			
+			setTimeout(function() {
+				$("#click6 .block_content_nm").html(blockHTML);
+				$("#click6 .block_content_nm").css("background", "none");
+				$("#click6").css("z-index", "0");
+			}, 500);
+			
+			// BG
+			$('.black_bg').fadeOut(250);
+			$(this).removeClass('zix');
+			
+		} else {
+			if (checkClicked == false) {
+				var blockHTML = $(this).find(".block_back").html();
+				
+				// for click tracking
+				loadedSeconds = $.now();
+
+				$("#click6 .block_content_nm").html(blockHTML);
+				$("#click6 .block_content_nm").css("background", "#a1131a");
+				$(".push6.click6").stop().animate({
+					top: 0,
+					left: 0
+				});
+				$("#click6").css("z-index", "2").stop().animate({
+                    height: size * 2 + 'px',
+                    width: size * 3 + 'px'
+				});
+				$(this).addClass("clicked");
+				$('#player6').attr('src', '').attr('src', '//player.vimeo.com/video/160929068?autoplay=1');
 				
 				// BG
 				$('.black_bg').fadeIn(250);
@@ -101,17 +160,17 @@ $(document).ready(function() {
 			$(this).removeClass("clicked");
 		
 			// click tracking
-			_gaq.push(["_trackEvent", "<?php echo $cur_username; ?>", "click", "Win more | Tools and innovation | Broker portal | Video", ($.now() - loadedSeconds), false]);
+			_gaq.push(["_trackEvent", "<?php echo $cur_username; ?>", "click", "Win more | Tools and innovation | Broker portal | Stats", ($.now() - loadedSeconds), false]);
 			
 			var blockHTML = $(this).find(".block_front").html();
 			
 			$(".push7.click7").stop().animate({
-				top: 192,
-				left: 192
-			}, 500);
+				top: size,
+				left: size
+			});
 			$("#click7").stop().animate({
-				height: '192px',
-				width: '384px'
+				height: size + 'px',
+				width: size * 2 + 'px'
 			}, 500);
 			
 			setTimeout(function() {
@@ -134,15 +193,132 @@ $(document).ready(function() {
 				$("#click7 .block_content_nm").html(blockHTML);
 				$("#click7 .block_content_nm").css("background", "#a1131a");
 				$(".push7.click7").stop().animate({
-					top: 0,
-					left: 0
+                    top: size,
+                    left: 0
 				});
 				$("#click7").css("z-index", "2").stop().animate({
-					height: '384px',
+					height: '192px',
 					width: '576px'
 				});
 				$(this).addClass("clicked");
-				$('#player7').attr('src', '').attr('src', '//player.vimeo.com/video/80377592?autoplay=1');
+				
+				// BG
+				$('.black_bg').fadeIn(250);
+				$(this).addClass('zix')
+			}
+		}
+	});
+	
+	
+	// 9
+	$("#click9").click(function() {
+		var checkClicked = $('.clicked').doesExist();
+
+		if ($(this).hasClass("clicked")) {
+			$(this).removeClass("clicked");
+		
+			// click tracking
+			_gaq.push(["_trackEvent", "<?php echo $cur_username; ?>", "click", "Win more | Tools and innovation | RED | Video", ($.now() - loadedSeconds), false]);
+			
+			var blockHTML = $(this).find(".block_front").html();
+			
+			$(".push9.click9").stop().animate({
+				top: size + 'px',
+				left: size * 3 + 'px'
+			}, 500);
+			$("#click9").stop().animate({
+                height: size + 'px',
+                width: size + 'px'
+			}, 500);
+			
+			setTimeout(function() {
+				$("#click9 .block_content_nm").html(blockHTML);
+				$("#click9 .block_content_nm").css("background", "none");
+				$("#click9").css("z-index", "0");
+			}, 500);
+			
+			// BG
+			$('.black_bg').fadeOut(250);
+			$(this).removeClass('zix');
+			
+		} else {
+			if (checkClicked == false) {
+				var blockHTML = $(this).find(".block_back").html();
+				
+				// for click tracking
+				loadedSeconds = $.now();
+
+				$("#click9 .block_content_nm").html(blockHTML);
+				$("#click9 .block_content_nm").css("background", "#a1131a");
+				$(".push9.click9").stop().animate({
+					top: size + 'px',
+					left: size * 2 + 'px'
+				});
+				$("#click9").css("z-index", "2").stop().animate({
+                    height: size * 2 + 'px',
+                    width: size * 3 + 'px'
+				});
+				$(this).addClass("clicked");
+				$('#player9').attr('src', '').attr('src', '//player.vimeo.com/video/160916827?autoplay=1');
+				
+				// BG
+				$('.black_bg').fadeIn(250);
+				$(this).addClass('zix')
+			}
+		}
+	});
+	
+	
+	// 10
+	$("#click10").click(function() {
+		var checkClicked = $('.clicked').doesExist();
+
+		if ($(this).hasClass("clicked")) {
+			$(this).removeClass("clicked");
+		
+			// click tracking
+			_gaq.push(["_trackEvent", "<?php echo $cur_username; ?>", "click", "Win more | Tools and innovation | JLL acedemy lounge | Video", ($.now() - loadedSeconds), false]);
+			
+			var blockHTML = $(this).find(".block_front").html();
+			
+			$(".push10.click10").stop().animate({
+				top: size + 'px',
+				left: size * 4 + 'px'
+			}, 500);
+			$("#click10").stop().animate({
+                height: size * 2 + 'px',
+                width: size + 'px'
+			}, 500);
+			
+			setTimeout(function() {
+				$("#click10 .block_content_nm").html(blockHTML);
+				$("#click10 .block_content_nm").css("background", "none");
+				$("#click10").css("z-index", "0");
+			}, 500);
+			
+			// BG
+			$('.black_bg').fadeOut(250);
+			$(this).removeClass('zix');
+			
+		} else {
+			if (checkClicked == false) {
+				var blockHTML = $(this).find(".block_back").html();
+				
+				// for click tracking
+				loadedSeconds = $.now();
+
+				$("#click10 .block_content_nm").html(blockHTML);
+				$("#click10 .block_content_nm").css("background", "#a1131a");
+				$(".push10.click10").stop().animate({
+					top: size + 'px',
+					left: size * 2 + 'px'
+				});
+				$("#click10").css("z-index", "2").stop().animate({
+                    height: size * 2 + 'px',
+                    width: size * 3 + 'px'
+				});
+				$(this).addClass("clicked");
+				$('#player10').attr('src', '').attr('src', '//player.vimeo.com/video/160944003?autoplay=1');
 				
 				// BG
 				$('.black_bg').fadeIn(250);
@@ -166,17 +342,17 @@ $(document).ready(function() {
 			$(".push11.click11").stop().animate({
 				top: 384,
 				left: 0
-			}, 100);
+			}, 500);
 			$("#click11").stop().animate({
 				height: '192px',
-				width: '576px'
-			}, 100);
+				width: size * 2 + 'px'
+			}, 500);
 			
 			setTimeout(function() {
 				$("#click11 .block_content_nm").html(blockHTML);
 				$("#click11 .block_content_nm").css("background", "none");
 				$("#click11").css("z-index", "0");
-			}, 100);
+			}, 500);
 			
 			// BG
 			$('.black_bg').fadeOut(250);
