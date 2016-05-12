@@ -167,7 +167,7 @@ $(document).ready(function() {
 			$(".push7.click7").stop().animate({
 				top: size,
 				left: size
-			});
+			}, 500);
 			$("#click7").stop().animate({
 				height: size + 'px',
 				width: size * 2 + 'px'
@@ -335,7 +335,7 @@ $(document).ready(function() {
 			$(this).removeClass("clicked");
 		
 			// click tracking
-			_gaq.push(["_trackEvent", "<?php echo $cur_username; ?>", "click", "Win more | Tools and innovation | Blackbird | Stats", ($.now() - loadedSeconds), false]);
+			_gaq.push(["_trackEvent", "<?php echo $cur_username; ?>", "click", "Win more | Tools and innovation | da Vinci | Stats", ($.now() - loadedSeconds), false]);
 			
 			var blockHTML = $(this).find(".block_front").html();
 			
@@ -384,31 +384,31 @@ $(document).ready(function() {
 		}
 	});
 
-	// 14
-	$("#click14").click(function() {
+	// 13
+	$("#click13").click(function() {
 		var checkClicked = $('.clicked').doesExist();
 
 		if ($(this).hasClass("clicked")) {
 			$(this).removeClass("clicked");
 		
 			// click tracking
-			_gaq.push(["_trackEvent", "<?php echo $cur_username; ?>", "click", "Win more | Tools and innovation | Blackbird | Video", ($.now() - loadedSeconds), false]);
+			_gaq.push(["_trackEvent", "<?php echo $cur_username; ?>", "click", "Win more | Tools and innovation | Skyline | Video", ($.now() - loadedSeconds), false]);
 			
 			var blockHTML = $(this).find(".block_front").html();
 			
-			$(".push14.click14").stop().animate({
-				top: 384,
-				left: 576
+			$(".push13.click13").stop().animate({
+                top: size * 2 + 'px',
+                left: size * 2 + 'px'
 			}, 500);
-			$("#click14").stop().animate({
-				height: '192px',
-				width: '384px'
+			$("#click13").stop().animate({
+                height: size + 'px',
+                width: size + 'px'
 			}, 500);
 			
 			setTimeout(function() {
-				$("#click14 .block_content_nm").html(blockHTML);
-				$("#click14 .block_content_nm").css("background", "none");
-				$("#click14").css("z-index", "0");
+				$("#click13 .block_content_nm").html(blockHTML);
+				$("#click13 .block_content_nm").css("background", "none");
+				$("#click13").css("z-index", "0");
 			}, 500);
 			
 			// BG
@@ -422,18 +422,18 @@ $(document).ready(function() {
 				// for click tracking
 				loadedSeconds = $.now();
 
-				$("#click14 .block_content_nm").html(blockHTML);
-				$("#click14 .block_content_nm").css("background", "#a1131a");
-				$(".push14.click14").stop().animate({
-					top: 192,
-					left: 384
+				$("#click13 .block_content_nm").html(blockHTML);
+				$("#click13 .block_content_nm").css("background", "#a1131a");
+				$(".push13.click13").stop().animate({
+					top: size + 'px',
+					left: size * 2 + 'px'
 				});
-				$("#click14").css("z-index", "2").stop().animate({
+				$("#click13").css("z-index", "2").stop().animate({
 					height: '384px',
 					width: '576px'
 				});
 				$(this).addClass("clicked");
-				$('#player14').attr('src', '').attr('src', '//player.vimeo.com/video/80275807?autoplay=1');
+				$('#player13').attr('src', '').attr('src', '//player.vimeo.com/video/80275807?autoplay=1');
 				
 				// BG
 				$('.black_bg').fadeIn(250);
@@ -650,8 +650,8 @@ f            </div>
         	<div class="block_content_nm">
             	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_11.png"></div>
                 <div class="flip_info">
-                	<h1 class="bold">Blackbird</h1>
-                    <h2>A new way to look at real estate</h2>
+                    <h2>Winning through</h2>
+                	<h1 class="bold">innovation</h1>
                 </div>
                 <div class="pointer"></div>
             </div>
@@ -659,23 +659,26 @@ f            </div>
             <div class="block_front">
             	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_11.png"></div>
                 <div class="flip_info">
-                	<h1><strong>Blackbird</strong></h1>
-                    <h2>A new way to look at real estate</h2>
+                    <h2>Winning through</h2>
+                	<h1 class="bold">innovation</h1>
                 </div>
                 <div class="pointer"></div>
             </div>
             
             <div class="block_back">
+            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/tools_and_innovation_11_back.jpg"></div>
                 <div class="pointer"></div>
-                <div class="gray_box white">
+                <div class="gray_box black">
                     <div class="clearfix">
                         <div class="daf_left">
-                            Blackbird virtually connects you to any property, saving our clients the time and cost of conventional market tours<br><br><br><br>
+                            <img src="<?php bloginfo('template_directory'); ?>/images/davinci.png" style="max-width: 100%; height: auto;"><br><br>
                         </div>
                         <div class="daf_right">
-                            <font class="times_22 red">Blackbird contributed to at least <strong>196 wins</strong> across <strong>24 markets</strong> for a <strong>50% win rate</strong></font></div>
+                            <font class="times_16">Industry leaders are always innovators. The da Vinci Award recognizes individuals&mdash;usually working as part of a team&mdash;who bring value to clients and the firm through innovation.</font>
+                            <?php /*<font class="times_22 red">Blackbird contributed to at least <strong>196 wins</strong> across <strong>24 markets</strong> for a <strong>50% win rate</strong></font>*/ ?>
+                        </div>
                     </div>
-                    <div class="flip_name white">blackbird</div>
+                    <div class="flip_name black">da Vinci</div>
                 </div>
             </div>
         </div>
