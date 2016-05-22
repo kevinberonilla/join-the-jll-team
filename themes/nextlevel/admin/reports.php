@@ -39,7 +39,7 @@ $account = $account[0]['id'];
 $stats->setAccount($account);
 
 # Get the latest stats
-$before = date('Y-m-d', strtotime('-1 day'));
+$before = date('Y-m-d', strtotime('-2 day'));
 $today = date('Y-m-d');
 
 try
