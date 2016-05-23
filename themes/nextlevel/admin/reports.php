@@ -2,6 +2,9 @@
 /*
 Template Name: Admin Reports
 */
+
+require_once('/home/jllvps/public_html/wp-content/themes/nextlevel/admin/reports-import.php');
+
 get_header('admin'); 
 
 $cur_user_id = get_current_user_id();
