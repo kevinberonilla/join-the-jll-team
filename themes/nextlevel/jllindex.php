@@ -54,7 +54,7 @@ $(document).ready(function() {
 			$(this).removeClass("clicked");
 
 			// click tracking
-			_gaq.push(["_trackEvent", "<?php echo $cur_username; ?>", "click", "Home | Home | Bo Mills | Quote", ($.now() - loadedSeconds), false]);
+			_gaq.push(["_trackEvent", "<?php echo $cur_username; ?>", "click", "Home | Home | Zach Boroson | Quote", ($.now() - loadedSeconds), false]);
 			
 			var blockHTML = $(this).find(".block_front").html();
 			
@@ -389,63 +389,6 @@ $(document).ready(function() {
 		}
 	});
 	
-	// 10
-	$("#click10").click(function() {
-		var checkClicked = $('.clicked').doesExist();
-
-		if ($(this).hasClass("clicked")) {
-			$(this).removeClass("clicked");
-		
-			// click tracking
-			_gaq.push(["_trackEvent", "<?php echo $cur_username; ?>", "click", "Home | Home | Zach Boroson | Quote", ($.now() - loadedSeconds), false]);
-			
-			var blockHTML = $(this).find(".block_front").html();
-			
-			$(".push10.click10").stop().animate({
-				top: size,
-				left: size * 4
-			}, 500);
-			$("#click10").stop().animate({
-				height: size + 'px',
-				width: size + 'px'
-			}, 500);
-			
-			setTimeout(function() {
-				$("#click10 .block_content_nm").html(blockHTML);
-				$("#click10 .block_content_nm").css("background", "none");
-				$("#click10").css("z-index", "0");
-			}, 500);
-			
-			// BG
-			$('.black_bg').fadeOut(250);
-			$(this).removeClass('zix');
-			
-		} else {
-			if (checkClicked == false) {
-				var blockHTML = $(this).find(".block_back").html();
-				
-				// for click tracking
-				loadedSeconds = $.now();
-
-				$("#click10 .block_content_nm").html(blockHTML);
-				$("#click10 .block_content_nm").css("background", "#a1131a");
-				$(".push10.click10").stop().animate({
-					top: size,
-					left: size * 2
-				});
-				$("#click10").css("z-index", "2").stop().animate({
-					height: size,
-					width: size * 3 + 'px'
-				});
-				$(this).addClass("clicked");
-				
-				// BG
-				$('.black_bg').fadeIn(250);
-				$(this).addClass('zix')
-			}
-		}
-	});
-	
 	// 11
 	$("#click11").click(function() {
 		var checkClicked = $('.clicked').doesExist();
@@ -493,63 +436,6 @@ $(document).ready(function() {
 				$("#click11").css("z-index", "2").stop().animate({
 					height: '192px',
 					width: '960px'
-				});
-				$(this).addClass("clicked");
-				
-				// BG
-				$('.black_bg').fadeIn(250);
-				$(this).addClass('zix')
-			}
-		}
-	});
-	
-	// 12
-	$("#click12").click(function() {
-		var checkClicked = $('.clicked').doesExist();
-
-		if ($(this).hasClass("clicked")) {
-			$(this).removeClass("clicked");
-
-			// click tracking
-			_gaq.push(["_trackEvent", "<?php echo $cur_username; ?>", "click", "Home | Home | Brooke Armstrong | Quote", ($.now() - loadedSeconds), false]);
-			
-			var blockHTML = $(this).find(".block_front").html();
-			
-			$(".push12.click12").stop().animate({
-				top: 384,
-				left: 192
-			}, 500);
-			$("#click12").stop().animate({
-				height: '192px',
-				width: '192px'
-			}, 500);
-			
-			setTimeout(function() {
-				$("#click12 .block_content_nm").html(blockHTML);
-				$("#click12 .block_content_nm").css("background", "none");
-				$("#click12").css("z-index", "0");
-			}, 500);
-			
-			// BG
-			$('.black_bg').fadeOut(250);
-			$(this).removeClass('zix');
-			
-		} else {
-			if (checkClicked == false) {
-				var blockHTML = $(this).find(".block_back").html();
-				
-				// for click tracking
-				loadedSeconds = $.now();
-
-				$("#click12 .block_content_nm").html(blockHTML);
-				$("#click12 .block_content_nm").css("background", "#a1131a");
-				$(".push12.click12").stop().animate({
-					top: 384,
-					left: 192
-				});
-				$("#click12").css("z-index", "2").stop().animate({
-					height: '192px',
-					width: '576px'
 				});
 				$(this).addClass("clicked");
 				
@@ -797,23 +683,23 @@ $(document).ready(function () {
     <div class="push3 click3">
     	<div class="block_1x1 clickable" id="click3">
         	<div class="block_content_nm">
-            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/index_3.jpg"></div>
-                <div class="statistics shadow">Bo Mills</div>
+            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/index_10_042816.jpg"></div>
+                <div class="statistics shadow">Zach Boroson</div>
                 <div class="pointer"></div>
             </div>
 
             <div class="block_front">
-            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/index_3.jpg"></div>
-                <div class="statistics shadow">Bo Mills</div>
+            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/index_10_042816.jpg"></div>
+                <div class="statistics shadow">Zach Boroson</div>
                 <div class="pointer"></div>
             </div>
             
             <div class="block_back">
-                <div class="statistics">Bo Mills</div>
+                <div class="statistics">Zach Boroson</div>
                 <div class="pointer"></div>
                 <div class="gray_box">
                 	<div class="home_people">
-                    	<font class="times_18 white">“The opportunity at JLL was unparalleled.  Their commitment to serving the client, being the best at what they do, and having fun while doing it were the deciding factors for joining the JLL team”</font>
+                    	<font class="times_18 white">“I truly believe that JLL’s culture is essential to creating a winning environment, and its values - serve our clients, support our people, and aspire to lead - further support its reputation. When it comes down to it, I joined JLL to win and to be part of a company with an outstanding reputation.”</font>
                 	</div>
                 </div>
             </div>
@@ -954,29 +840,9 @@ $(document).ready(function () {
     </div>
     
     <!--10-->
-    <div class="push10 click10">
-    	<div class="block_1x1 clickable" id="click10">
-        	<div class="block_content_nm">
-            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/index_10_042816.jpg"></div>
-                <div class="statistics shadow">Zach Boroson</div>
-                <div class="pointer"></div>
-            </div>
-
-            <div class="block_front">
-            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/index_10_042816.jpg"></div>
-                <div class="statistics shadow">Zach Boroson</div>
-                <div class="pointer"></div>
-            </div>
-            
-            <div class="block_back">
-                <div class="statistics">Zach Boroson</div>
-                <div class="pointer"></div>
-                <div class="gray_box">
-                	<div class="home_people">
-                    	<font class="times_18 white">“I truly believe that JLL’s culture is essential to creating a winning environment, and its values - serve our clients, support our people, and aspire to lead - further support its reputation. When it comes down to it, I joined JLL to win and to be part of a company with an outstanding reputation.”</font>
-                	</div>
-                </div>
-            </div>
+    <div class="push10">
+    	<div class="block_1x1">
+        	<div class="block_content_nm"><img src="/wp-content/themes/nextlevel/images/flips/index_11.png"></div>
         </div>
     </div>
     
@@ -1008,29 +874,9 @@ $(document).ready(function () {
     </div>
     
     <!--12-->
-    <div class="push12 click12">
-    	<div class="block_1x1 clickable" id="click12">
-        	<div class="block_content_nm">
-            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/index_12_042816.jpg"></div>
-                <div class="statistics shadow">Brooke Armstrong</div>
-                <div class="pointer"></div>
-            </div>
-
-            <div class="block_front">
-            	<div class="flip_img"><img src="<?php bloginfo('template_directory'); ?>/images/flips/index_12_042816.jpg"></div>
-                <div class="statistics shadow">Brooke Armstrong</div>
-                <div class="pointer"></div>
-            </div>
-            
-            <div class="block_back">
-                <div class="statistics">Brooke Armstrong</div>
-                <div class="pointer"></div>
-                <div class="gray_box">
-                	<div class="home_people">
-                    	<font class="times_18 white">“I love working at JLL because the culture is not something that is just talked about, we live and breathe it.  My team is like family.  We are there for one another to serve our clients in the best way possible and we are there for one another on a personal and friendship level as well.”</font>
-                	</div>
-                </div>
-            </div>
+    <div class="push12">
+    	<div class="block_1x1">
+        	<div class="block_content_nm"><img src="/wp-content/themes/nextlevel/images/flips/index_4.png"></div>
         </div>
     </div>
     
